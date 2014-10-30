@@ -1,7 +1,7 @@
 WAP MSISDN Demo
 ==========
 Danish mobile carriers share your telephone number without your consent.
-[Imgur](http://i.imgur.com/Pi2CiSQ.png)
+![Imgur](http://i.imgur.com/Pi2CiSQ.png)
 
 Read more (in danish):  
 http://macbay.dk/5045435588673536  

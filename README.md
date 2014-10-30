@@ -2,7 +2,7 @@ WAP MSISDN Demo
 ==========
 Danish telcos share your telephone number without your consent.
 
-Read more (in danish):
+Read more (in danish):  
 http://macbay.dk/5045435588673536 
 http://www.version2.dk/artikel/mobilsurf-danske-teleselskaber-sender-dit-telefonnummer-til-hjemmesider-70145
 

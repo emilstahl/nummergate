@@ -39,19 +39,37 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="POF af Jonas Boserup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZe-mS-pim">
+                                <rect key="frame" x="100" y="578" width="174" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@JonasBoserup / jonasboserup.dk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WH-d2-NzX">
+                                <rect key="frame" x="53" y="607" width="268" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="3WH-d2-NzX" secondAttribute="trailing" constant="38" id="2rt-ZV-ar2"/>
+                            <constraint firstItem="3WH-d2-NzX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="4zc-ST-t0P"/>
                             <constraint firstAttribute="trailingMargin" secondItem="geG-v1-aYW" secondAttribute="trailing" constant="17" id="9DS-KQ-jxc"/>
+                            <constraint firstItem="jZe-mS-pim" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="84" id="AtZ-aY-duN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3WH-d2-NzX" secondAttribute="bottom" constant="39" id="CFl-C5-6wi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Kd5-T2-Uti" secondAttribute="trailing" constant="153" id="Chw-n3-pfo"/>
                             <constraint firstItem="geG-v1-aYW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="Ids-95-kDg"/>
                             <constraint firstItem="mbT-ZX-XvL" firstAttribute="top" secondItem="Kd5-T2-Uti" secondAttribute="bottom" constant="8" id="LkS-Jf-PBw"/>
                             <constraint firstItem="Kd5-T2-Uti" firstAttribute="top" secondItem="geG-v1-aYW" secondAttribute="bottom" constant="31" id="ONT-v9-hnZ"/>
                             <constraint firstItem="mbT-ZX-XvL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="SaU-fB-wcL"/>
                             <constraint firstItem="Wq6-cr-HtH" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Utc-KT-ok6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jZe-mS-pim" secondAttribute="trailing" constant="85" id="WcU-ma-zHE"/>
                             <constraint firstItem="Kd5-T2-Uti" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="153" id="bmC-Y6-tcI"/>
                             <constraint firstItem="mbT-ZX-XvL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="czU-iA-42y"/>
                             <constraint firstItem="geG-v1-aYW" firstAttribute="top" secondItem="Wq6-cr-HtH" secondAttribute="bottom" constant="13" id="feV-Fm-bmL"/>
+                            <constraint firstItem="3WH-d2-NzX" firstAttribute="top" secondItem="jZe-mS-pim" secondAttribute="bottom" constant="8" id="g2X-JH-WNG"/>
                             <constraint firstItem="Wq6-cr-HtH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hHt-Xg-b4W"/>
                             <constraint firstItem="Wq6-cr-HtH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="kBv-oX-7gW"/>
                         </constraints>

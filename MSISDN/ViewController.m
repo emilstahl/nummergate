@@ -20,13 +20,13 @@
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [manager GET:@"http://portal.unwire.dk/UMP/editordraft/Egmont/Olivia/mitolivia.pml"
+    [manager GET:@"http://portal.unwire.dk/UMP/editordraft/Mobilepix/tuborg/"
       parameters:nil
          success:^(AFHTTPRequestOperation *operation, id responseObject) {
              NSString *responseString = operation.responseString;
              
-             NSRange firstRange = [responseString rangeOfString:@"&amp;msisdn="];
-             NSRange secondRange = [responseString rangeOfString:@"&amp;ts="];
+             NSRange firstRange = [responseString rangeOfString:@"&msisdn="];
+             NSRange secondRange = [responseString rangeOfString:@"%0A"];
              NSRange resultRange = NSMakeRange(firstRange.location + firstRange.length, secondRange.location - firstRange.location - firstRange.length);
              NSString *result = [responseString substringWithRange:resultRange];
              
@@ -39,7 +39,8 @@
                  [_resultLabel setText:[NSString stringWithFormat:@"Ja, hej +%@ 😊", result]];
              }
          } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-             NSLog(@"Error: %@", error);
+             [_spinner setHidden:YES];
+             [_resultLabel setText:@"Kunne ikke indlæse. 😅"];
          }];
 }
 
